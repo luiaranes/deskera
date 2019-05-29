@@ -1,0 +1,16 @@
+@font-face{
+	font-family:'AvenirNextPro-Bold';
+	src: url('../fonts/AvenirNextLTPro-Bold.woff')
+}
+@font-face{
+	font-family:'AvenirNextPro-Demi';
+	src: url('../fonts/AvenirNextLTPro-Demi.woff')
+}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+html, body{
+	color: $brand-black;
+}
+p{
+	font-family: "AvenirNextPro-Demi";
+}

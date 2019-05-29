@@ -1,0 +1,43 @@
+.deskera-header{
+    background: rgb(255,60,0); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(255,60,0,1) 0%, rgba(237,41,57,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,60,0,1) 0%,rgba(237,41,57,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,60,0,1) 0%,rgba(237,41,57,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3c00', endColorstr='#ed2939',GradientType=1 ); /* IE6-9 */
+    box-shadow: 0px 5px 10px rgba(0,0,0,.15);
+    padding: 10px 0;
+
+    .uk-logo{
+        img{
+            width: 100px;
+        }
+    }
+
+    .uk-navbar-nav{
+        li{
+            a{
+                color: $brand-white;
+                font-family: 'AvenirNextPro-Demi';
+                text-transform: capitalize;
+            }
+        }
+        
+        .uk-navbar-dropdown{
+            ul{
+                li {
+                    a{
+                        color: #999!important;
+                    }
+                }
+            }
+        }
+    }
+
+    .get-started-cta{
+        color: $brand-red;
+        background-color:$brand-white;
+        padding: 4px 25px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+}
