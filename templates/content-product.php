@@ -75,7 +75,7 @@
                                 <h1 class="uk-card-title uk-margin-remove-bottom">Printable reports<br> anytime</h1>
                             </div>
                             <div class="uk-width-auto">
-                                <img width="65" height="80" src="<?=get_template_directory_uri();?>/dist/images/financial-accounting.svg">
+                                <img width="65" height="80" src="<?=get_template_directory_uri();?>/dist/images/printable-reports.svg">
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                                 <h1 class="uk-card-title uk-margin-remove-bottom">Printable reports<br> anytime</h1>
                             </div>
                             <div class="uk-width-auto">
-                                <img width="65" height="80" src="<?=get_template_directory_uri();?>/dist/images/financial-accounting.svg">
+                                <img width="65" height="80" src="<?=get_template_directory_uri();?>/dist/images/printable-reports.svg">
                             </div>
                         </div>
                     </div>
@@ -217,10 +217,10 @@
 	</div>
 </div>
 
-<div class="uk-section uk-section-default products-offer">
+<div class="uk-section uk-section-default products-offer ">
 	<div class="uk-container uk-text-center">
         <h2>A real-time data hub for your team</h2>
-        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match uk-margin-medium   -top" uk-grid>
             <div>
                 <div class="uk-card uk-card-body uk-padding-remove active">
                     <div class="uk-card-header uk-padding-remove">

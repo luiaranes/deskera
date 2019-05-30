@@ -24,7 +24,7 @@
 
 <div class="uk-section uk-section-default">
 	<div class="uk-container">
-		<div class="uk-margin-xlarge-top uk-margin-xlarge-bottom uk-text-center feature-content">
+		<div class="uk-margin-large-top uk-margin-large-bottom uk-text-center feature-content">
 			<h2>A real-time data hub for your team</h2>
 			<p>Gain insight into day-to-day business operations in real-time, as Deskera <br> apps come together to help you manage your time and efforts more efficiently.</p>
 			<div class="uk-child-width-expand@s uk-text-left uk-margin-large-top" uk-grid>
@@ -68,7 +68,7 @@
 
 <div class="uk-section uk-section-default">
 	<div class="uk-container">
-		<div class="uk-margin-xlarge-top uk-margin-xlarge-bottom uk-text-center organization-content">
+		<div class="uk-margin-large-top uk-text-center organization-content">
 			<h2>Organizations love us</h2>
 			<p>Hear from customers that use Deskera <br> to maximize their efficiency in the business.</p>
 			<div class="uk-flex uk-flex-center uk-margin-large-top">
@@ -118,7 +118,7 @@
 
 <div class="uk-section uk-section-default">
 	<div class="uk-container">
-		<div class="uk-text-center uk-margin-xlarge-bottom client-content">
+		<div class="uk-text-center uk-margin-large-bottom client-content">
 			<div class="uk-flex uk-flex-center" uk-grid uk-height-match="target: > .uk-card">
 				<div class="uk-card uk-card-body uk-flex uk-flex-center uk-padding-remove-horizontal">
 					<img src="<?=get_template_directory_uri();?>/dist/images/sushi-tei.svg"/>
