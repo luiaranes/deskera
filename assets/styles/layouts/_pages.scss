@@ -6,7 +6,10 @@
                 font-size: 50px;
                 color: $brand-darkGrey;
             }
-            p{ font-size: 24px; }
+            p{ 
+                font-size: 23px;
+                font-family: 'Work Sans';
+            }
             .subscribe-form{
                 .uk-input{
                     width: 365px;
@@ -36,7 +39,7 @@
             text-align: center;
 
             img{
-                height: 450px;
+                height: 650px;
             }
         }
     }   
@@ -58,6 +61,274 @@
                 }
                 p{
                     font-size: 19px;
+                }
+            }
+        }
+    }
+    .organization-content{
+        h2{
+            font-family: 'AvenirNextPro-Bold';
+            color: $brand-darkGrey;
+            font-size: 35px;
+        }
+        p{
+            font-family: 'Work Sans';
+            font-size: 25px;
+        }
+        .uk-card{
+            width: 260px;
+            border: 1px solid $brand-borderColor;
+            border-radius: 20px;
+
+            .uk-card-media-top{
+                position: relative;
+                height: 100px;
+            
+                img{
+                    max-height: 100%;
+                    max-width: 100%;
+                    width: auto;
+                    height: auto;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                }
+            }
+
+            .uk-card-title{
+                font-size: 20px;
+                height: 85px;
+            }
+        }
+    }
+    .subcribe-content{
+        background-color: $brand-red;
+        color: $brand-white;
+        
+        p{
+            font-size: 23px;
+            font-family: 'Work Sans';
+        }
+        .subscribe-form{
+            .uk-input{
+                width: 380px;
+                border: 1px solid $brand-white;
+                border-bottom-left-radius: 15px;
+                border-top-left-radius: 15px;
+                padding: 0 25px;
+                font-family: 'Work Sans';
+                height: 50px;
+                color: $brand-lightGrey1;
+                background: transparent;
+                font-size: 17px;
+            }
+                
+            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: $brand-lightGrey1;
+                opacity: 1; /* Firefox */
+            }
+            
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: $brand-lightGrey1;
+            }
+            
+            ::-ms-input-placeholder { /* Microsoft Edge */
+                color: $brand-lightGrey1;
+            }
+            .uk-button{
+                margin-left: -5px;
+                background-color: $brand-white;
+                color: $brand-red;
+                text-transform: capitalize;
+                font-family: 'AvenirNextPro-Bold';
+                font-size: 18px;
+                border: 1px solid $brand-white;
+                border-bottom-right-radius: 15px;
+                border-top-right-radius: 15px;
+                height: 50px;
+                font-size: 17px;
+            }
+        }
+    }
+    .client-content{
+        .uk-card{
+            padding: 0 23px!important;
+
+            img{
+                width: 200px;
+            }
+        }
+    }
+}
+
+.product{
+    .product-banner{
+        .banner-content{
+            h1{
+                font-family:'Gordita-Bold';
+                font-size: 50px;
+                color: $brand-darkGrey;
+                line-height: 68px;
+            }
+            p{ 
+                font-size: 17px;
+                font-family: 'Work Sans';
+            }
+            .subscribe-form{
+                .uk-input{
+                    width: 365px;
+                    border: 1px solid $brand-red;
+                    border-bottom-left-radius: 15px;
+                    border-top-left-radius: 15px;
+                    padding: 0 25px;
+                    font-family: 'Work Sans';
+                    height: 45px;
+                    color: $brand-lightGrey;
+                }
+                .uk-button{
+                    margin-left: -5px;
+                    background-color: $brand-red;
+                    color: $brand-white;
+                    text-transform: capitalize;
+                    font-family: 'AvenirNextPro-Bold';
+                    font-size: 18px;
+                    border: 1px solid $brand-red;
+                    border-bottom-right-radius: 15px;
+                    border-top-right-radius: 15px;
+                    height: 45px;
+                }
+            }
+        }
+        .banner-image{
+            text-align: center;
+
+            img{
+                height: 650px;
+            }
+        }
+    } 
+    .product-list{
+        .uk-card{
+            .uk-card-header{
+                h1{
+                    font-size: 40px;
+                    font-family: 'AvenirNextPro-Demi';
+                    line-height: 50px;
+                }
+            }
+            .uk-card-body{
+                padding: 0 40px;
+                
+                p{
+                    font-family: 'Work Sans';
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .lets-get-started{
+        .banner-content{
+            h1{
+                font-family:'Gordita-Bold';
+                font-size: 50px;
+                color: $brand-darkGrey;
+                line-height: 68px;
+            }
+            p{ 
+                font-size: 20px;
+                font-family: 'Work Sans';
+                line-height: 30px;
+            }
+            .uk-input{
+                width: 275px;
+                border-radius: 10px;
+                border: 1px solid $brand-inputColor;
+                color: $brand-inputText;
+                
+                ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                    color: $brand-inputText;
+                    opacity: 1; /* Firefox */
+                }
+                
+                :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                    color: $brand-inputText;
+                }
+                
+                ::-ms-input-placeholder { /* Microsoft Edge */
+                    color: $brand-inputText;
+                }
+            }
+
+            .uk-margin-bottom-large{
+                margin-bottom: 50px;
+            }
+
+            .submit-btn{
+                background-color: $brand-red;
+                color: $brand-white;
+                padding: 15px 50px;
+                border-radius: 10px;
+                font-size: 22px;
+                margin: 10px 0;
+                font-family: 'AvenirNextPro-Bold';
+
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    } 
+    .products-offer{
+        h2{
+            font-family:'Gordita-Bold';
+            font-size: 42px;
+            color: $brand-darkGrey;
+        }
+        .active{
+            background-color: $brand-red;
+            color: $brand-white!important;
+            border: 1px solid $brand-red!important;
+
+            .uk-card-title{
+                font-size: 35px;
+                text-transform: uppercase;
+                font-family: 'AvenirNextPro-Demi';
+                color: $brand-white!important;
+            }
+            .uk-text-meta{
+                font-family: 'Work Sans';
+                font-size: 16px;
+                color: $brand-white!important;
+            }
+            .uk-icon{
+                svg{
+                    width: 50px!important;
+                    height: 50px!important;
+                }
+            }
+        }
+        .uk-card{
+            border: 1px solid $brand-darkGrey;
+            padding: 30px 20px!important;
+            border-radius: 15px;
+            margin: 0 20px; 
+
+            .uk-card-title{
+                font-size: 35px;
+                text-transform: uppercase;
+                font-family: 'AvenirNextPro-Demi';
+            }
+            .uk-text-meta{
+                font-family: 'Work Sans';
+                font-size: 16px;
+            }
+            .uk-icon{
+                svg{
+                    width: 50px!important;
+                    height: 50px!important;
                 }
             }
         }

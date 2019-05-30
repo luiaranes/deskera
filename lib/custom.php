@@ -1,4 +1,4 @@
-<?
+<?php
 remove_filter('the_excerpt', 'wp_trim_excerpt'); // remove default wp filter
 add_filter('the_excerpt', 'trim_excerpt'); // add custom filter
 function trim_excerpt($_content) {

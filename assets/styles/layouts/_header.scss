@@ -9,7 +9,7 @@
 
     .uk-logo{
         img{
-            width: 100px;
+            width: 120px;
         }
     }
 
@@ -39,5 +39,9 @@
         padding: 4px 25px;
         border-radius: 10px;
         font-weight: bold;
+                
+        &:hover{
+            text-decoration: none!important;
+        }
     }
 }
