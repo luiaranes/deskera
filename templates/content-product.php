@@ -147,7 +147,7 @@
                                 <h1 class="uk-card-title uk-margin-remove-bottom">Printable reports<br> anytime</h1>
                             </div>
                             <div class="uk-width-auto">
-                                <img width="65" height="80" src="<?=get_template_directory_uri();?>/dist/images/printable-reports.svg">
+                                <img width="65" height="80" src="<?=get_template_directory_uri();?>/dist/images/printable-reports-colored.svg">
                             </div>
                         </div>
                     </div>

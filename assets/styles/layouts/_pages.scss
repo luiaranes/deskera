@@ -224,7 +224,7 @@
                 
                 p{
                     font-family: 'Work Sans';
-                    font-size: 15px;
+                    font-size: 18px;
                 }
             }
         }
@@ -331,6 +331,177 @@
                     width: 50px!important;
                     height: 50px!important;
                 }
+            }
+        }
+    }
+}
+
+.blog{
+    .blog-banner{
+        padding: 0!important;
+
+        .banner-content{
+            .uk-container{
+                padding: 0!important;
+            }
+
+            .uk-card{
+                margin-left: 140px;
+
+                @media only screen and (min-width: 1535px) {
+                    margin-left: 235px;
+                }
+
+                @media only screen and (min-width: 1660px) {
+                    margin-left: 335px;
+                }
+            }
+
+            a{
+                font-family: 'Work Sans';
+                color: $brand-lightGrey2;
+                display: block;
+                font-size: 16px;
+
+                &:hover{
+                    text-decoration: none;
+                }
+
+                span{
+
+                    svg{
+                            width: 30px;
+                            height: 30px;
+                    }
+                }
+            }
+            h1{
+                font-family: 'AvenirNextPro-Bold';
+                font-size: 50px;
+                color: $brand-darkGrey;
+            }
+            p{
+                font-size: 23px;
+                font-family: 'Work Sans';
+            }
+            .sub-details{
+                font-size: 17px!important; 
+            }
+        }
+        .banner-image{
+            padding-left: 0!important;
+        }
+    }
+    .blog-content{
+        padding: 0!important;
+        margin-top: -60px;
+
+        .uk-card{
+            padding: 40px 60px!important;
+            -moz-box-shadow: 8px 8px 16px rgba(0,0,0,0.3);
+            -webkit-box-shadow: 8px 8px 16px rgba(0,0,0,0.3);
+            box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+            background-color: #fff;
+
+            p{
+                font-family: 'Work Sans';
+                line-height: 20px;
+                font-size: 16px;
+            }
+            h3{
+                color: $brand-darkGrey;
+                font-family: 'AvenirNextPro-Bold';   
+                font-size: 30px;
+                line-height: 35px;
+                margin-bottom: 45px;
+            
+            }
+        }
+    }
+    .author-content{
+        font-size: 17px;
+        p{
+            font-family: 'Work Sans';
+        }
+        .tags{
+            display: block;
+            width: 100%;
+            margin-top: 10px!important;
+
+            a{
+                color: $brand-black;
+                font-family: 'Work Sans';
+                text-decoration: underline;
+            }
+        }
+    }
+    .share-content{
+        padding: 0 0 20px 0!important;
+
+        p{
+            font-family: 'Work Sans';
+        }
+
+        a{
+            padding: 0 10px;
+
+            &:hover{
+                text-decoration: none;
+            }
+
+            img{
+                width: 55px;
+            }
+        }
+    }
+    .cta-content{
+        padding: 0!important;
+        .uk-card{
+            padding: 10px 0;
+
+            a{
+                font-family: 'Work Sans';
+                color: $brand-lightGrey2;
+                display: block;
+                font-size: 16px;
+                margin-left: 35px;
+
+                &:hover{
+                    text-decoration: none;
+                }
+
+                span{
+
+                    svg{
+                            width: 30px;
+                            height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .similar-articles{
+        h3{
+            font-family:'Gordita-Bold';
+            font-size: 32px;
+        }
+
+        .uk-card{
+            padding: 25px 25px;
+            width: 450px;
+            -moz-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+            -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+            box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+
+            .uk-card-title{
+                font-family: 'Work Sans';
+                font-size: 18px;
+            }
+        }
+        span{
+            svg{
+                width: 35px;
+                color: $brand-red;
             }
         }
     }
