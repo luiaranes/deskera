@@ -1,5 +1,10 @@
+<?php
+
+use Roots\Sage\Extras;
+
+?>
 <header class="header">
-    <div class="wrapper deskera-header">
+    <div class="wrapper deskera-header <?=Extras\getLocation();?>-bg-header">
         <nav class="uk-navbar-container uk-navbar-transparent uk-container" uk-navbar>
             <div class="uk-navbar-left">
                 <div class="uk-navbar-brand">
@@ -46,7 +51,7 @@
 
             <div class="uk-navbar-right">
 
-                <a href="#" class="get-started-cta">Get Started</a>
+                <a href="#" class="get-started-cta <?=Extras\getLocation();?>-color">Get Started</a>
 
             </div>
         </nav>

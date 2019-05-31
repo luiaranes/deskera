@@ -1,3 +1,8 @@
+<?php
+
+use Roots\Sage\Extras;
+
+?>
 <div class="uk-section uk-section-default">
 	<div class="uk-container">
 		<div class="uk-grid-match uk-child-width-expand@s no-boxshadow product-banner" uk-grid>
@@ -13,9 +18,9 @@
                     </p>
 					<div class="subscribe-form">
 						<div uk-form-custom="target: true" class="s">
-							<input class="uk-input" type="text" placeholder="your email address">
+							<input class="uk-input <?=Extras\getLocation();?>-getStarted-input" type="text" placeholder="your email address">
 						</div>
-						<button class="uk-button uk-button-default">Get Started</button>
+						<button class="uk-button uk-button-default <?=Extras\getLocation();?>-getStarted-btn">Get Started</button>
 					</div>
 				</div>
 			</div>
@@ -208,7 +213,7 @@
                             <div class="uk-margin uk-margin-bottom-large">
                                 <input class="uk-input" type="text" placeholder="Company">
                             </div>
-                            <a href="#" class="submit-btn">Get Started</a>
+                            <a href="#" class="submit-btn <?=Extras\getLocation();?>-getStarted-btn">Get Started</a>
                         </fieldset>
                     </form>
 				</div>
@@ -217,12 +222,12 @@
 	</div>
 </div>
 
-<div class="uk-section uk-section-default products-offer ">
+<div class="uk-section uk-section-default products-offer">
 	<div class="uk-container uk-text-center">
         <h2>A real-time data hub for your team</h2>
-        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match uk-margin-medium   -top" uk-grid>
+        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match uk-margin-medium-top" uk-grid>
             <div>
-                <div class="uk-card uk-card-body uk-padding-remove active">
+                <div class="uk-card uk-card-body uk-padding-remove active border-active <?=Extras\getLocation();?>-bg <?=Extras\getLocation();?>-bordercolor">
                     <div class="uk-card-header uk-padding-remove">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-expand uk-text-left">
@@ -237,7 +242,7 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-body uk-padding-remove">
+                <div class="uk-card uk-card-body uk-padding-remove border-grey">
                     <div class="uk-card-header uk-padding-remove">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-expand uk-text-left">
@@ -252,7 +257,7 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-body uk-padding-remove">
+                <div class="uk-card uk-card-body uk-padding-remove border-grey">
                     <div class="uk-card-header uk-padding-remove">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-expand uk-text-left">
@@ -268,7 +273,7 @@
             </div>
         </div>
         <div class="uk-flex uk-flex-center" uk-grid uk-height-match="target: > .uk-card">
-            <div class="uk-card uk-card-body uk-padding-remove">
+            <div class="uk-card uk-card-body uk-padding-remove border-grey">
                 <div class="uk-card-header uk-padding-remove">
                     <div class="uk-grid-small uk-flex-middle" uk-grid>
                         <div class="uk-width-expand uk-text-left">
@@ -281,7 +286,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-card uk-card-body uk-padding-remove">
+            <div class="uk-card uk-card-body uk-padding-remove border-grey">
                 <div class="uk-card-header uk-padding-remove">
                     <div class="uk-grid-small uk-flex-middle" uk-grid>
                         <div class="uk-width-expand uk-text-left">

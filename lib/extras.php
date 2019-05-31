@@ -54,3 +54,16 @@ function getUserIP()
 
     return $ip;
 }
+
+function getLocation(){
+  $ip = $_SERVER['REMOTE_ADDR']; // This will contain the ip of the request
+  
+  //FRANCE SAMPLE IP ADDRESS FOR TESTING
+  //$ip = "176.31.84.249";
+
+  // You can use a more sophisticated method to retrieve the content of a webpage with php using a library or something
+  // We will retrieve quickly with the file_get_contents
+  $dataArray = json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=".$ip));
+
+  return $dataArray->geoplugin_continentCode;
+}

@@ -1,3 +1,8 @@
+<?php
+
+use Roots\Sage\Extras;
+
+?>
 <footer class="footer">
     <div class="uk-container">
         <div class="uk-padding-large uk-padding-remove-horizontal" uk-grid>
@@ -48,9 +53,9 @@
                         <h5>Subscribe</h5>
                         <div class="subscribe-form">
                             <div uk-form-custom="target: true" class="s">
-                                <input class="uk-input" type="text" placeholder="your email address">
+                                <input class="uk-input <?=Extras\getLocation();?>-getStarted-input" type="text" placeholder="your email address">
                             </div>
-                            <button class="uk-button uk-button-default">Get Started</button>
+                            <button class="uk-button uk-button-default <?=Extras\getLocation();?>-getStarted-btn">Get Started</button>
                         </div>
                         <div class="social-media">
                             <a href="#">

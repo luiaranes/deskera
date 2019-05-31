@@ -1,3 +1,8 @@
+<?php
+
+use Roots\Sage\Extras;
+
+?>
 <div class="uk-section uk-section-default">
 	<div class="uk-container">
 		<div class="uk-grid-match uk-child-width-expand@s no-boxshadow home-banner" uk-grid>
@@ -7,15 +12,15 @@
 					<p>An award-winning integrated business platform <br>that helps you run your business.</p>
 					<div class="subscribe-form">
 						<div uk-form-custom="target: true" class="s">
-							<input class="uk-input" type="text" placeholder="your email address">
+							<input id="home-banner-input" class="uk-input <?=Extras\getLocation();?>-getStarted-input" type="text" placeholder="your email address">
 						</div>
-						<button class="uk-button uk-button-default">Get Started</button>
+						<button id="home-banner-btn" class="uk-button uk-button-default <?=Extras\getLocation();?>-getStarted-btn">Get Started</button>
 					</div>
 				</div>
 			</div>
 			<div class="banner-image">
 				<div>
-					<img src="<?=get_template_directory_uri();?>/dist/images/home-banner.svg" alt="home-banner"/>
+					<img src="<?=get_template_directory_uri();?>/dist/images/home-banner<?=Extras\getLocation();?>.svg" alt="home-banner"/>
 				</div>
 			</div>
 		</div>
@@ -31,7 +36,7 @@
 				<div>
 					<div class="uk-card uk-card-body">
 						<div class="uk-card-media-top uk-margin-medium-bottom">
-							<img src="<?=get_template_directory_uri();?>/dist/images/all-in-one.svg" alt=""/>
+							<img src="<?=get_template_directory_uri();?>/dist/images/all-in-one<?=Extras\getLocation();?>.svg" alt=""/>
 						</div>
 						<div class="uk-card-body uk-padding-remove">
 							<h5 class="uk-card-title uk-margin-medium-bottom">Integrated All-in-one Platform</h5>
@@ -42,7 +47,7 @@
 				<div>
 					<div class="uk-card uk-card-body">
 						<div class="uk-card-media-top uk-margin-medium-bottom">
-							<img src="<?=get_template_directory_uri();?>/dist/images/quick-to-deploy.svg" alt=""/>
+							<img src="<?=get_template_directory_uri();?>/dist/images/quick-to-deploy<?=Extras\getLocation();?>.svg" alt=""/>
 						</div>
 						<div class="uk-card-body uk-padding-remove">
 							<h5 class="uk-card-title uk-margin-medium-bottom">Quick to deploy</h5>
@@ -53,7 +58,7 @@
 				<div>
 					<div class="uk-card uk-card-body">
 						<div class="uk-card-media-top uk-margin-medium-bottom">
-							<img src="<?=get_template_directory_uri();?>/dist/images/cloud-based-software.svg" alt=""/>
+							<img src="<?=get_template_directory_uri();?>/dist/images/cloud-based-software<?=Extras\getLocation();?>.svg" alt=""/>
 						</div>
 						<div class="uk-card-body uk-padding-remove">
 							<h5 class="uk-card-title uk-margin-medium-bottom">Cloud-based software</h5>
@@ -81,7 +86,7 @@
 					</div>
 					<div class="uk-text-right">
 						<a class="#">
-							<img src="<?=get_template_directory_uri();?>/dist/images/arrow-right.svg"/>
+							<img src="<?=get_template_directory_uri();?>/dist/images/arrow-right<?=Extras\getLocation();?>.svg"/>
 						</a>
 					</div>
 				</div>
@@ -94,7 +99,7 @@
 					</div>
 					<div class="uk-text-right">
 						<a class="#">
-							<img src="<?=get_template_directory_uri();?>/dist/images/arrow-right.svg"/>
+							<img src="<?=get_template_directory_uri();?>/dist/images/arrow-right<?=Extras\getLocation();?>.svg"/>
 						</a>
 					</div>
 				</div>
@@ -107,7 +112,7 @@
 					</div>
 					<div class="uk-text-right">
 						<a class="#">
-							<img src="<?=get_template_directory_uri();?>/dist/images/arrow-right.svg"/>
+							<img src="<?=get_template_directory_uri();?>/dist/images/arrow-right<?=Extras\getLocation();?>.svg"/>
 						</a>
 					</div>
 				</div>
@@ -140,7 +145,7 @@
 	</div>
 </div>
 
-<div class="subcribe-content uk-padding-large">
+<div class="subcribe-content uk-padding-large <?=Extras\getLocation();?>-bg">
 	<div class="uk-container">
 		<div class="uk-flex-middle" uk-grid>
 			<div class="uk-width-1-2@l">
@@ -151,7 +156,7 @@
 					<div uk-form-custom="target: true" class="s">
 						<input class="uk-input" type="text" placeholder="your email address">
 					</div>
-					<button class="uk-button uk-button-default">Get Started</button>
+					<button class="uk-button uk-button-default <?=Extras\getLocation();?>-color">Get Started</button>
 				</div>
 			</div>
 		</div>

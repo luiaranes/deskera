@@ -1,3 +1,8 @@
+<?php
+
+use Roots\Sage\Extras;
+
+?>
 <div class="uk-section uk-section-default blog-banner">
 		<div class="uk-grid-match uk-child-width-expand@s no-boxshadow" uk-grid>
 			<div class="banner-content uk-inline">
@@ -102,13 +107,13 @@
         <p>Share</p>
         <div class="social-icons">
             <a href="#">
-                <img src="<?=get_template_directory_urI();?>/dist/images/linkedin-circle.svg" alt"linkedin"/>
+                <img src="<?=get_template_directory_urI();?>/dist/images/linkedin-circle<?=Extras\getLocation();?>.svg" alt"linkedin"/>
             </a>
             <a href="#">
-                <img src="<?=get_template_directory_urI();?>/dist/images/fb-circle.svg" alt"fb"/>
+                <img src="<?=get_template_directory_urI();?>/dist/images/fb-circle<?=Extras\getLocation();?>.svg" alt"fb"/>
             </a>
             <a href="#">
-                <img src="<?=get_template_directory_urI();?>/dist/images/twitter-circle.svg" alt"twitter"/>
+                <img src="<?=get_template_directory_urI();?>/dist/images/twitter-circle<?=Extras\getLocation();?>.svg" alt"twitter"/>
             </a>
         </div>
     </div>
@@ -133,7 +138,7 @@
                         <h4 class="uk-card-title uk-margin-remove-bottom">Top ERP Software in Singapore</h4>
                     </div>
                     <div class="uk-width-auto">
-                        <span uk-icon="arrow-right"></span>
+                        <span uk-icon="arrow-right" class="<?=Extras\getLocation();?>-arrow-right-svg"></span>
                     </div>
                 </div>
             </div>
@@ -145,7 +150,7 @@
                         <h4 class="uk-card-title uk-margin-remove-bottom">Top ERP Software in Singapore</h4>
                     </div>
                     <div class="uk-width-auto">
-                        <span uk-icon="arrow-right"></span>
+                        <span uk-icon="arrow-right" class="<?=Extras\getLocation();?>-arrow-right-svg"></span>
                     </div>
                 </div>
             </div>
@@ -157,7 +162,7 @@
                         <h4 class="uk-card-title uk-margin-remove-bottom">Romanticizing on the Cloud</h4>
                     </div>
                     <div class="uk-width-auto">
-                        <span uk-icon="arrow-right"></span>
+                        <span uk-icon="arrow-right" class="<?=Extras\getLocation();?>-arrow-right-svg"></span>
                     </div>
                 </div>
             </div>
